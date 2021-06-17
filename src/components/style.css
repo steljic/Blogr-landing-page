@@ -6,6 +6,30 @@
 	background-image: url(/images/mobile/image-header_1.jpg);
 }
 
+.navbar-end a {
+	color: whitesmoke;
+	border-radius: 20px;
+	margin-left: 20px;
+	font-family: 'Barlow', sans-serif;
+	font-weight: 900;
+}
+
+.navbar-link.is-active,
+.navbar-link:focus,
+.navbar-link:focus-within,
+.navbar-link:hover,
+a.navbar-item.is-active,
+a.navbar-item:focus,
+a.navbar-item:focus-within,
+a.navbar-item:hover {
+	color: black;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar-end {
+	margin-right: 50px;
+}
+
 .creatives-image {
 	background-image: url(/images/desktop/image-header.jpg);
 	height: 700px;
@@ -20,6 +44,7 @@
 
 .navbar-item span {
 	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: 900;
 }
 
 h1 {
@@ -27,14 +52,247 @@ h1 {
 	text-align: center;
 	color: white;
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	padding-bottom: 100px;
+	text-transform: uppercase;
+	margin-top: 30px;
 }
 
 .arrow-image {
 	height: 100px;
-	left: 170px;
-	top: 65px;
+	left: 630px;
+	top: 165px;
 	position: relative;
+}
+
+.transform header {
+	color: black;
+	text-align: left;
+	font-size: 40px;
+	margin-bottom: 15px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.learn {
+	text-align: left;
+	margin-top: 20px;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.transform {
+	padding: 20px;
+	background-color: #fffdd0;
+	width: 640px;
+	height: 400px;
+	padding: 95px;
+}
+
+.transform p {
+	text-align: justify;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.egg-image {
+	background-image: url(/images/desktop/image-transform.jpg);
+	height: 400px;
+	width: 640px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.egg-transform {
+	display: flex;
+	flex-flow: row-reverse wrap;
+}
+
+.standout-image {
+	background-image: url(/images/desktop/image-stand-out.jpg);
+	height: 400px;
+	width: 640px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.standout header {
+	color: black;
+	text-align: left;
+	font-size: 40px;
+	margin-bottom: 15px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.standout {
+	padding: 20px;
+	background-color: #fffdd0;
+	width: 640px;
+	height: 400px;
+	padding: 95px;
+}
+
+.standout p {
+	text-align: justify;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.standoutAll {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.graphic-image {
+	background-image: url(/images/desktop/image-graphic-design.jpg);
+	height: 600px;
+	width: 640px;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 30px;
+}
+
+.graphic-image header {
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 15px;
+	position: relative;
+	top: 345px;
+	font-family: 'Fraunces', serif;
+}
+
+.graphic-image p {
+	text-align: center;
+	font-size: 12px;
+	font-weight: 900;
+	margin-bottom: 15px;
+	position: relative;
+	top: 350px;
+	font-family: 'Fraunces', serif;
+	padding: 0 120px;
+}
+
+.photography-image {
+	background-image: url(/images/desktop/image-photography.jpg);
+	height: 600px;
+	width: 640px;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 30px;
+}
+
+.photography-image header {
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 15px;
+	position: relative;
+	top: 345px;
+	font-family: 'Fraunces', serif;
+}
+
+.photography-image p {
+	text-align: center;
+	font-size: 12px;
+	font-weight: 900;
+	margin-bottom: 15px;
+	position: relative;
+	top: 350px;
+	font-family: 'Fraunces', serif;
+	padding: 0 120px;
+}
+
+.graphicPhoto {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.all-testimonial {
+	padding: 30px;
+	background-color: #fffdd0;
+}
+
+.testimonial header {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: grey;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.emily-image {
+	border-radius: 80px;
+	height: 80px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+.emily-header {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.emily p {
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.thomas-image {
+	border-radius: 80px;
+	height: 80px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+.thomas-header {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.thomas p {
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.jennie-image {
+	border-radius: 80px;
+	height: 80px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+.jennie-header {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.jennie p {
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+	text-align: center;
+	font-weight: 900;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
@@ -78,12 +336,16 @@ h1 {
 		position: relative;
 	}
 
+	.egg-transform {
+		display: flex;
+		flex-flow: row wrap;
+	}
+
 	.egg-image {
-		background-image: url(/images/mobile/image-transform_1.jpg);
+		background-image: url(/images/mobile/image-transform.jpg);
 		height: 300px;
-		width: auto;
+		width: 1000px;
 		background-repeat: no-repeat;
-		background-position: center;
 	}
 
 	.transform header {
@@ -112,12 +374,16 @@ h1 {
 		font-family: Georgia, 'Times New Roman', Times, serif;
 	}
 
+	.standoutAll {
+		display: flex;
+		flex-flow: row wrap;
+	}
+
 	.standout-image {
 		background-image: url(/images/mobile/image-stand-out_1.jpg);
 		height: 300px;
-		width: auto;
+		width: 1000px;
 		background-repeat: no-repeat;
-		background-position: center;
 	}
 
 	.standout header {
@@ -136,6 +402,11 @@ h1 {
 	.standout p {
 		text-align: center;
 		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
+
+	.graphicPhoto {
+		display: flex;
+		flex-flow: row wrap;
 	}
 
 	.graphic-image {
@@ -164,6 +435,7 @@ h1 {
 		position: relative;
 		top: 350px;
 		font-family: 'Fraunces', serif;
+		padding: 0 10px;
 	}
 
 	.photography-image {
@@ -192,6 +464,7 @@ h1 {
 		position: relative;
 		top: 350px;
 		font-family: 'Fraunces', serif;
+		padding: 0 10px;
 	}
 
 	.all-testimonial {
