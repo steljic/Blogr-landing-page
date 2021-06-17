@@ -550,8 +550,8 @@ img.facebook-logo,
 	.all-testimonial {
 		padding: 30px;
 		background-color: #fffdd0;
-		height: 40vh;
-		padding-top: 100px;
+		height: 45vh;
+		padding-top: 50px;
 	}
 
 	.container {
@@ -564,8 +564,8 @@ img.facebook-logo,
 		letter-spacing: 3px;
 		font-weight: 900;
 		color: grey;
-		margin-top: 25px;
-		margin-bottom: 60px;
+		margin-top: 10px;
+		margin-bottom: 30px;
 		font-family: Georgia, 'Times New Roman', Times, serif;
 	}
 
