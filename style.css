@@ -392,6 +392,53 @@ img.facebook-logo,
 }
 
 @media only screen and (min-width: 1440px) {
+	.navbar {
+		background-image: url(./images/mobile/image-header_1.jpg);
+	}
+
+	.navbar-end a {
+		color: whitesmoke;
+		border-radius: 20px;
+		margin-left: 20px;
+		font-family: 'Barlow', sans-serif;
+		font-weight: 900;
+	}
+
+	.navbar-link.is-active,
+	.navbar-link:focus,
+	.navbar-link:focus-within,
+	.navbar-link:hover,
+	a.navbar-item.is-active,
+	a.navbar-item:focus,
+	a.navbar-item:focus-within,
+	a.navbar-item:hover {
+		color: black;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
+
+	.navbar-end {
+		margin-right: 50px;
+	}
+
+	.creatives-image {
+		background-image: url(./images/desktop/image-header.jpg);
+		height: 100vh;
+		display: block;
+		width: auto;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center bottom;
+	}
+
+	.navbar-brand a {
+		color: white;
+	}
+
+	.navbar-item span {
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		font-weight: 900;
+	}
+
 	h1 {
 		font-size: 55px;
 		text-align: center;
@@ -404,7 +451,7 @@ img.facebook-logo,
 	.arrow-image {
 		height: 160px;
 		left: 700px;
-		top: 95px;
+		top: 150px;
 		position: relative;
 	}
 
@@ -425,11 +472,10 @@ img.facebook-logo,
 	}
 
 	.transform {
-		padding: 20px;
 		background-color: #fffdd0;
 		width: 720px;
-		height: 400px;
-		padding: 95px;
+		height: 70vh;
+		padding-top: 180px;
 	}
 
 	.transform p {
@@ -439,7 +485,7 @@ img.facebook-logo,
 
 	.egg-image {
 		background-image: url(./images/desktop/image-transform.jpg);
-		height: 400px;
+		height: 70vh;
 		width: 720px;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -452,7 +498,7 @@ img.facebook-logo,
 
 	.standout-image {
 		background-image: url(./images/desktop/image-stand-out.jpg);
-		height: 400px;
+		height: 70vh;
 		width: 720px;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -467,11 +513,11 @@ img.facebook-logo,
 	}
 
 	.standout {
-		padding: 20px;
+		padding: 90px;
 		background-color: #fffdd0;
 		width: 720px;
-		height: 400px;
-		padding: 95px;
+		height: 70vh;
+		padding-top: 180px;
 	}
 
 	.standout p {
@@ -487,7 +533,7 @@ img.facebook-logo,
 	.graphic-image {
 		background-image: url(./images/desktop/image-graphic-design.jpg);
 		height: 600px;
-		width: 720px;
+		width: 50%;
 		background-repeat: no-repeat;
 		background-position: center;
 		padding: 30px;
@@ -516,7 +562,7 @@ img.facebook-logo,
 	.photography-image {
 		background-image: url(./images/desktop/image-photography.jpg);
 		height: 600px;
-		width: 720px;
+		width: 50%;
 		background-repeat: no-repeat;
 		background-position: center;
 		padding: 30px;
@@ -550,7 +596,7 @@ img.facebook-logo,
 	.all-testimonial {
 		padding: 30px;
 		background-color: #fffdd0;
-		height: 45vh;
+		height: 80vh;
 		padding-top: 50px;
 	}
 
@@ -564,8 +610,8 @@ img.facebook-logo,
 		letter-spacing: 3px;
 		font-weight: 900;
 		color: grey;
-		margin-top: 10px;
-		margin-bottom: 30px;
+		margin-top: 100px;
+		margin-bottom: 100px;
 		font-family: Georgia, 'Times New Roman', Times, serif;
 	}
 
@@ -580,7 +626,7 @@ img.facebook-logo,
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		margin-bottom: 30px;
+		margin-bottom: 50px;
 	}
 
 	.emily-header {
@@ -589,12 +635,11 @@ img.facebook-logo,
 		margin-bottom: 50px;
 		font-family: Georgia, 'Times New Roman', Times, serif;
 		font-size: 12px;
-		font-weight: bold;
 	}
 
 	.emily p {
 		text-align: center;
-		margin-bottom: 30px;
+		margin-bottom: 50px;
 		font-family: Georgia, 'Times New Roman', Times, serif;
 	}
 
@@ -609,7 +654,7 @@ img.facebook-logo,
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		margin-bottom: 30px;
+		margin-bottom: 50px;
 	}
 
 	.thomas-header {
@@ -623,7 +668,7 @@ img.facebook-logo,
 
 	.thomas p {
 		text-align: center;
-		margin-bottom: 30px;
+		margin-bottom: 50px;
 		font-family: Georgia, 'Times New Roman', Times, serif;
 	}
 
@@ -638,7 +683,7 @@ img.facebook-logo,
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		margin-bottom: 30px;
+		margin-bottom: 50px;
 	}
 
 	.jennie-header {
@@ -652,7 +697,7 @@ img.facebook-logo,
 
 	.jennie p {
 		text-align: center;
-		margin-bottom: 30px;
+		margin-bottom: 50px;
 		font-family: Georgia, 'Times New Roman', Times, serif;
 	}
 
@@ -660,6 +705,28 @@ img.facebook-logo,
 		text-align: center;
 		font-weight: 900;
 		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
+
+	.images {
+		display: flex;
+		flex-flow: row wrap;
+	}
+
+	.milkbottle-image {
+		height: 60vh;
+		width: 25%;
+	}
+	.orange-image {
+		height: 60vh;
+		width: 25%;
+	}
+	.cone-image {
+		height: 60vh;
+		width: 25%;
+	}
+	.sugar-image {
+		height: 60vh;
+		width: 25%;
 	}
 }
 
