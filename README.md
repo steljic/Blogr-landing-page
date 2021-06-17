@@ -81,4 +81,4 @@ All the resources came from Frontend Masters and I really liked them.
 
 ## Acknowledgments
 
-I tip my heart to Frontend Masters for the projects and challenges they come up with. Really cool and thought provoking and challenges the individual.
+I tip my hat to Frontend Masters for the projects and challenges they come up with. Really cool and thought provoking and challenges the individual.
