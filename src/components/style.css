@@ -248,12 +248,7 @@ h3 {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* .orange-image {
-	width: 180px;
-
-} */
-
-/* .milkbottle-image {
-	height: 100px;
-	width: 187px;
-} */
+.images {
+	display: flex;
+	flex-flow: row wrap;
+}
