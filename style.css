@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
 
 .navbar {
-	background-image: url(/images/mobile/image-header_1.jpg);
+	background-image: url(./images/mobile/image-header_1.jpg);
 }
 
 .navbar-end a {
@@ -31,7 +31,7 @@ a.navbar-item:hover {
 }
 
 .creatives-image {
-	background-image: url(/images/desktop/image-header.jpg);
+	background-image: url(./images/desktop/image-header.jpg);
 	height: 700px;
 	width: auto;
 	background-repeat: no-repeat;
@@ -93,7 +93,7 @@ h1 {
 }
 
 .egg-image {
-	background-image: url(/images/desktop/image-transform.jpg);
+	background-image: url(./images/desktop/image-transform.jpg);
 	height: 400px;
 	width: 640px;
 	background-repeat: no-repeat;
@@ -106,7 +106,7 @@ h1 {
 }
 
 .standout-image {
-	background-image: url(/images/desktop/image-stand-out.jpg);
+	background-image: url(./images/desktop/image-stand-out.jpg);
 	height: 400px;
 	width: 640px;
 	background-repeat: no-repeat;
@@ -140,7 +140,7 @@ h1 {
 }
 
 .graphic-image {
-	background-image: url(/images/desktop/image-graphic-design.jpg);
+	background-image: url(./images/desktop/image-graphic-design.jpg);
 	height: 600px;
 	width: 640px;
 	background-repeat: no-repeat;
@@ -169,7 +169,7 @@ h1 {
 }
 
 .photography-image {
-	background-image: url(/images/desktop/image-photography.jpg);
+	background-image: url(./images/desktop/image-photography.jpg);
 	height: 600px;
 	width: 640px;
 	background-repeat: no-repeat;
@@ -402,7 +402,7 @@ img.facebook-logo,
 	}
 
 	.creatives-image {
-		background-image: url(/images/mobile/image-header_1.jpg);
+		background-image: url(./images/mobile/image-header_1.jpg);
 		height: 500px;
 		width: auto;
 		background-repeat: no-repeat;
@@ -438,7 +438,7 @@ img.facebook-logo,
 	}
 
 	.egg-image {
-		background-image: url(/images/mobile/image-transform.jpg);
+		background-image: url(./images/mobile/image-transform.jpg);
 		height: 300px;
 		width: 1000px;
 		background-repeat: no-repeat;
@@ -476,7 +476,7 @@ img.facebook-logo,
 	}
 
 	.standout-image {
-		background-image: url(/images/mobile/image-stand-out_1.jpg);
+		background-image: url(./images/mobile/image-stand-out_1.jpg);
 		height: 300px;
 		width: 1000px;
 		background-repeat: no-repeat;
@@ -506,7 +506,7 @@ img.facebook-logo,
 	}
 
 	.graphic-image {
-		background-image: url(/images/mobile/image-graphic-design_1.jpg);
+		background-image: url(./images/mobile/image-graphic-design_1.jpg);
 		height: 540px;
 		width: auto;
 		background-repeat: no-repeat;
@@ -535,7 +535,7 @@ img.facebook-logo,
 	}
 
 	.photography-image {
-		background-image: url(/images/mobile/image-photography_1.jpg);
+		background-image: url(./images/mobile/image-photography_1.jpg);
 		height: 600px;
 		width: auto;
 		background-repeat: no-repeat;
