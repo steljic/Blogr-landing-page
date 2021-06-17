@@ -422,7 +422,7 @@ img.facebook-logo,
 
 	.creatives-image {
 		background-image: url(./images/desktop/image-header.jpg);
-		height: 100vh;
+		height: 80vh;
 		display: block;
 		width: auto;
 		background-repeat: no-repeat;
