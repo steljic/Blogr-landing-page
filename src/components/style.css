@@ -1,20 +1,17 @@
 @import 'https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css';
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
 
-.attribution {
-	font-size: 11px;
-	text-align: center;
-}
-.attribution a {
-	color: hsl(228, 45%, 44%);
+.navbar {
+	background-image: url(/images/mobile/image-header_1.jpg);
 }
 
 .creatives-image {
-	background-image: url(/images/mobile/image-header_1.jpg);
-	height: 500px;
+	background-image: url(/images/desktop/image-header.jpg);
+	height: 700px;
 	width: auto;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-size: cover;
 }
 
 .navbar-brand a {
@@ -30,6 +27,7 @@ h1 {
 	text-align: center;
 	color: white;
 	font-family: Georgia, 'Times New Roman', Times, serif;
+	padding-bottom: 100px;
 }
 
 .arrow-image {
@@ -39,216 +37,302 @@ h1 {
 	position: relative;
 }
 
-.egg-image {
-	background-image: url(/images/mobile/image-transform_1.jpg);
-	height: 300px;
-	width: auto;
-	background-repeat: no-repeat;
-	background-position: center;
-}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+	.attribution {
+		font-size: 11px;
+		text-align: center;
+		margin-top: 80px;
+	}
+	.attribution a {
+		color: hsl(228, 45%, 44%);
+	}
 
-.transform header {
-	color: black;
-	text-align: center;
-	font-size: 40px;
-	margin-bottom: 15px;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-}
+	.creatives-image {
+		background-image: url(/images/mobile/image-header_1.jpg);
+		height: 500px;
+		width: auto;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
 
-.learn {
-	text-align: center;
-	margin-top: 20px;
-	font-weight: 900;
-	text-transform: uppercase;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-}
+	.navbar-brand a {
+		color: white;
+	}
 
-.transform {
-	padding: 20px;
-	background-color: #fffdd0;
-}
+	.navbar-item span {
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
 
-.transform p {
-	text-align: center;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-}
+	h1 {
+		font-size: 50px;
+		text-align: center;
+		color: white;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		text-transform: uppercase;
+	}
 
-.standout-image {
-	background-image: url(/images/mobile/image-stand-out_1.jpg);
-	height: 300px;
-	width: auto;
-	background-repeat: no-repeat;
-	background-position: center;
-}
+	.arrow-image {
+		height: 100px;
+		left: 170px;
+		top: -25px;
+		position: relative;
+	}
 
-.standout header {
-	color: black;
-	text-align: center;
-	font-size: 40px;
-	margin-bottom: 15px;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-}
+	.egg-image {
+		background-image: url(/images/mobile/image-transform_1.jpg);
+		height: 300px;
+		width: auto;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
 
-.standout {
-	padding: 20px;
-	background-color: #fffdd0;
-}
+	.transform header {
+		color: black;
+		text-align: center;
+		font-size: 40px;
+		margin-bottom: 15px;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
 
-.standout p {
-	text-align: center;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-}
+	.learn {
+		text-align: center;
+		margin-top: 20px;
+		font-weight: 900;
+		text-transform: uppercase;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
 
-.graphic-image {
-	background-image: url(/images/mobile/image-graphic-design_1.jpg);
-	height: 540px;
-	width: auto;
-	background-repeat: no-repeat;
-	background-position: center;
-	padding: 30px;
-}
+	.transform {
+		padding: 20px;
+		background-color: #fffdd0;
+	}
 
-.graphic-image header {
-	text-align: center;
-	font-size: 40px;
-	margin-bottom: 15px;
-	position: relative;
-	top: 345px;
-	font-family: 'Fraunces', serif;
-}
+	.transform p {
+		text-align: center;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
 
-.graphic-image p {
-	text-align: center;
-	font-size: 12px;
-	font-weight: 900;
-	margin-bottom: 15px;
-	position: relative;
-	top: 350px;
-	font-family: 'Fraunces', serif;
-}
+	.standout-image {
+		background-image: url(/images/mobile/image-stand-out_1.jpg);
+		height: 300px;
+		width: auto;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
 
-.photography-image {
-	background-image: url(/images/mobile/image-photography_1.jpg);
-	height: 600px;
-	width: auto;
-	background-repeat: no-repeat;
-	background-position: center;
-	padding: 30px;
-}
+	.standout header {
+		color: black;
+		text-align: center;
+		font-size: 40px;
+		margin-bottom: 15px;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
 
-.photography-image header {
-	text-align: center;
-	font-size: 40px;
-	margin-bottom: 15px;
-	position: relative;
-	top: 345px;
-	font-family: 'Fraunces', serif;
-}
+	.standout {
+		padding: 20px;
+		background-color: #fffdd0;
+	}
 
-.photography-image p {
-	text-align: center;
-	font-size: 12px;
-	font-weight: 900;
-	margin-bottom: 15px;
-	position: relative;
-	top: 350px;
-	font-family: 'Fraunces', serif;
-}
+	.standout p {
+		text-align: center;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
 
-.all-testimonial {
-	padding: 30px;
-	background-color: #fffdd0;
-}
+	.graphic-image {
+		background-image: url(/images/mobile/image-graphic-design_1.jpg);
+		height: 540px;
+		width: auto;
+		background-repeat: no-repeat;
+		background-position: center;
+		padding: 30px;
+	}
 
-.testimonial header {
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: 900;
-	color: grey;
-	margin-top: 30px;
-	margin-bottom: 40px;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-}
+	.graphic-image header {
+		text-align: center;
+		font-size: 40px;
+		margin-bottom: 15px;
+		position: relative;
+		top: 345px;
+		font-family: 'Fraunces', serif;
+	}
 
-.emily-image {
-	border-radius: 80px;
-	height: 80px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 30px;
-}
+	.graphic-image p {
+		text-align: center;
+		font-size: 12px;
+		font-weight: 900;
+		margin-bottom: 15px;
+		position: relative;
+		top: 350px;
+		font-family: 'Fraunces', serif;
+	}
 
-.emily-header {
-	text-align: center;
-	margin-top: 10px;
-	margin-bottom: 50px;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size: 12px;
-	font-weight: bold;
-}
+	.photography-image {
+		background-image: url(/images/mobile/image-photography_1.jpg);
+		height: 600px;
+		width: auto;
+		background-repeat: no-repeat;
+		background-position: center;
+		padding: 30px;
+	}
 
-.emily p {
-	text-align: center;
-	margin-bottom: 30px;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-}
+	.photography-image header {
+		text-align: center;
+		font-size: 40px;
+		margin-bottom: 15px;
+		position: relative;
+		top: 345px;
+		font-family: 'Fraunces', serif;
+	}
 
-.thomas-image {
-	border-radius: 80px;
-	height: 80px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 30px;
-}
+	.photography-image p {
+		text-align: center;
+		font-size: 12px;
+		font-weight: 900;
+		margin-bottom: 15px;
+		position: relative;
+		top: 350px;
+		font-family: 'Fraunces', serif;
+	}
 
-.thomas-header {
-	text-align: center;
-	margin-top: 10px;
-	margin-bottom: 50px;
-	font-size: 12px;
-	font-weight: bold;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-}
+	.all-testimonial {
+		padding: 30px;
+		background-color: #fffdd0;
+	}
 
-.thomas p {
-	text-align: center;
-	margin-bottom: 30px;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-}
+	.testimonial header {
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 900;
+		color: grey;
+		margin-top: 30px;
+		margin-bottom: 40px;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
 
-.jennie-image {
-	border-radius: 80px;
-	height: 80px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 30px;
-}
+	.emily-image {
+		border-radius: 80px;
+		height: 80px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 30px;
+	}
 
-.jennie-header {
-	text-align: center;
-	margin-top: 10px;
-	margin-bottom: 50px;
-	font-size: 12px;
-	font-weight: bold;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-}
+	.emily-header {
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 50px;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		font-size: 12px;
+		font-weight: bold;
+	}
 
-.jennie p {
-	text-align: center;
-	margin-bottom: 30px;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-}
+	.emily p {
+		text-align: center;
+		margin-bottom: 30px;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
 
-h3 {
-	text-align: center;
-	font-weight: 900;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-}
+	.thomas-image {
+		border-radius: 80px;
+		height: 80px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 30px;
+	}
 
-.images {
-	display: flex;
-	flex-flow: row wrap;
+	.thomas-header {
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 50px;
+		font-size: 12px;
+		font-weight: bold;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
+
+	.thomas p {
+		text-align: center;
+		margin-bottom: 30px;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
+
+	.jennie-image {
+		border-radius: 80px;
+		height: 80px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 30px;
+	}
+
+	.jennie-header {
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 50px;
+		font-size: 12px;
+		font-weight: bold;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
+
+	.jennie p {
+		text-align: center;
+		margin-bottom: 30px;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
+
+	h3 {
+		text-align: center;
+		font-weight: 900;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
+
+	.images {
+		display: flex;
+		flex-flow: row wrap;
+	}
+
+	.sunnybelow-info {
+		background-color: rgb(182, 250, 220);
+		height: 400px;
+	}
+
+	.sunnybelow {
+		text-align: center;
+		padding-top: 45px;
+		margin-bottom: 30px;
+		font-size: 40px;
+		font-family: 'Barlow', sans-serif;
+		font-weight: 900;
+	}
+
+	.sunnyside-info {
+		text-align: center;
+	}
+
+	span.about,
+	.services,
+	.projects {
+		margin-right: 35px;
+		font-family: 'Barlow', sans-serif;
+	}
+
+	span.about,
+	.services,
+	.projects,
+	.contact {
+		font-family: 'Barlow', sans-serif;
+		font-weight: 900;
+	}
+
+	.logos {
+		margin-top: 100px;
+		text-align: center;
+	}
+
+	img.facebook-logo,
+	.instagram-logo,
+	.twitter-logo {
+		margin-right: 35px;
+	}
 }
