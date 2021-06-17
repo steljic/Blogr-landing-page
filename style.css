@@ -422,7 +422,7 @@ img.facebook-logo,
 
 	.creatives-image {
 		background-image: url(./images/desktop/image-header.jpg);
-		height: 90vh;
+		height: 88vh;
 		display: block;
 		width: auto;
 		background-repeat: no-repeat;
@@ -445,13 +445,13 @@ img.facebook-logo,
 		color: white;
 		font-family: 'Fraunces', serif;
 		text-transform: uppercase;
-		margin-top: 60px;
+		margin-top: 120px;
 	}
 
 	.arrow-image {
 		height: 140px;
 		left: 700px;
-		top: 165px;
+		top: 85px;
 		position: relative;
 	}
 
@@ -472,9 +472,9 @@ img.facebook-logo,
 	}
 
 	.transform {
-		background-color: white;
+		background-color: hsl(0, 0%, 100%);
 		width: 720px;
-		height: 70vh;
+		height: 65vh;
 		padding-top: 180px;
 	}
 
@@ -485,7 +485,7 @@ img.facebook-logo,
 
 	.egg-image {
 		background-image: url(./images/desktop/image-transform.jpg);
-		height: 70vh;
+		height: 65vh;
 		width: 720px;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -498,7 +498,7 @@ img.facebook-logo,
 
 	.standout-image {
 		background-image: url(./images/desktop/image-stand-out.jpg);
-		height: 70vh;
+		height: 65vh;
 		width: 720px;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -514,9 +514,9 @@ img.facebook-logo,
 
 	.standout {
 		padding: 90px;
-		background-color: white;
+		background-color: hsl(0, 0%, 100%);
 		width: 720px;
-		height: 70vh;
+		height: 65vh;
 		padding-top: 180px;
 	}
 
@@ -595,7 +595,7 @@ img.facebook-logo,
 
 	.all-testimonial {
 		padding: 30px;
-		background-color: white;
+		background-color: hsl(0, 0%, 100%);
 		height: 80vh;
 		padding-top: 50px;
 	}
@@ -635,6 +635,7 @@ img.facebook-logo,
 		margin-bottom: 50px;
 		font-family: Georgia, 'Times New Roman', Times, serif;
 		font-size: 12px;
+		font-weight: lighter;
 	}
 
 	.emily p {
@@ -662,7 +663,7 @@ img.facebook-logo,
 		margin-top: 10px;
 		margin-bottom: 50px;
 		font-size: 12px;
-		font-weight: bold;
+		font-weight: lighter;
 		font-family: Georgia, 'Times New Roman', Times, serif;
 	}
 
@@ -691,7 +692,7 @@ img.facebook-logo,
 		margin-top: 10px;
 		margin-bottom: 50px;
 		font-size: 12px;
-		font-weight: bold;
+		font-weight: lighter;
 		font-family: Georgia, 'Times New Roman', Times, serif;
 	}
 
