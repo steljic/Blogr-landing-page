@@ -443,15 +443,15 @@ img.facebook-logo,
 		font-size: 55px;
 		text-align: center;
 		color: white;
-		font-family: Georgia, 'Times New Roman', Times, serif;
+		font-family: 'Fraunces', serif;
 		text-transform: uppercase;
-		margin-top: 100px;
+		margin-top: 60px;
 	}
 
 	.arrow-image {
-		height: 160px;
+		height: 140px;
 		left: 700px;
-		top: 150px;
+		top: 60px;
 		position: relative;
 	}
 
@@ -713,19 +713,19 @@ img.facebook-logo,
 	}
 
 	.milkbottle-image {
-		height: 60vh;
+		height: 50vh;
 		width: 25%;
 	}
 	.orange-image {
-		height: 60vh;
+		height: 50vh;
 		width: 25%;
 	}
 	.cone-image {
-		height: 60vh;
+		height: 50vh;
 		width: 25%;
 	}
 	.sugar-image {
-		height: 60vh;
+		height: 50vh;
 		width: 25%;
 	}
 }
