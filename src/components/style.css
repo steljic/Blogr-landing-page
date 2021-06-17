@@ -205,16 +205,28 @@ h1 {
 .all-testimonial {
 	padding: 30px;
 	background-color: #fffdd0;
+	height: 80vh;
+	padding-top: 100px;
+}
+
+.container {
+	display: flex;
 }
 
 .testimonial header {
 	text-align: center;
 	text-transform: uppercase;
+	letter-spacing: 3px;
 	font-weight: 900;
 	color: grey;
 	margin-top: 30px;
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.emilyAll {
+	margin-right: 20px;
+	padding: 0 40px;
 }
 
 .emily-image {
@@ -241,6 +253,11 @@ h1 {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.thomasAll {
+	/* margin-right: 10px; */
+	padding: 0 40px;
+}
+
 .thomas-image {
 	border-radius: 80px;
 	height: 80px;
@@ -263,6 +280,11 @@ h1 {
 	text-align: center;
 	margin-bottom: 30px;
 	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.jennieAll {
+	/* margin-right: 20px; */
+	padding: 0 40px;
 }
 
 .jennie-image {
@@ -294,6 +316,28 @@ h3 {
 	font-weight: 900;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.images {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.milkbottle-image {
+	width: 25vw;
+}
+
+.orange-image {
+	width: 25vw;
+}
+
+.cone-image {
+	width: 25vw;
+}
+
+.sugar-image {
+	width: 25vw;
+}
+
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
 	.attribution {
@@ -468,18 +512,31 @@ h3 {
 	}
 
 	.all-testimonial {
+		padding-top: 100px;
 		padding: 30px;
 		background-color: #fffdd0;
+		height: 160vh;
+	}
+
+	.container {
+		display: flex;
+		flex-flow: row wrap;
 	}
 
 	.testimonial header {
 		text-align: center;
 		text-transform: uppercase;
+		letter-spacing: 3px;
 		font-weight: 900;
 		color: grey;
 		margin-top: 30px;
 		margin-bottom: 40px;
 		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
+
+	.emilyAll {
+		margin-right: 0px;
+		padding: 0 0px;
 	}
 
 	.emily-image {
@@ -506,6 +563,11 @@ h3 {
 		font-family: Georgia, 'Times New Roman', Times, serif;
 	}
 
+	.thomasAll {
+		margin-right: 0px;
+		padding: 0 0px;
+	}
+
 	.thomas-image {
 		border-radius: 80px;
 		height: 80px;
@@ -528,6 +590,11 @@ h3 {
 		text-align: center;
 		margin-bottom: 30px;
 		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
+
+	.jennieAll {
+		margin-right: 0px;
+		padding: 0 0px;
 	}
 
 	.jennie-image {
@@ -563,6 +630,19 @@ h3 {
 	.images {
 		display: flex;
 		flex-flow: row wrap;
+	}
+
+	.milkbottle-image {
+		width: 50vw;
+	}
+	.orange-image {
+		width: 50vw;
+	}
+	.cone-image {
+		width: 50vw;
+	}
+	.sugar-image {
+		width: 50vw;
 	}
 
 	.sunnybelow-info {
