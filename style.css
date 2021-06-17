@@ -422,7 +422,7 @@ img.facebook-logo,
 
 	.creatives-image {
 		background-image: url(./images/desktop/image-header.jpg);
-		height: 80vh;
+		height: 90vh;
 		display: block;
 		width: auto;
 		background-repeat: no-repeat;
@@ -451,7 +451,7 @@ img.facebook-logo,
 	.arrow-image {
 		height: 140px;
 		left: 700px;
-		top: 60px;
+		top: 165px;
 		position: relative;
 	}
 
@@ -472,7 +472,7 @@ img.facebook-logo,
 	}
 
 	.transform {
-		background-color: #fffdd0;
+		background-color: white;
 		width: 720px;
 		height: 70vh;
 		padding-top: 180px;
@@ -514,7 +514,7 @@ img.facebook-logo,
 
 	.standout {
 		padding: 90px;
-		background-color: #fffdd0;
+		background-color: white;
 		width: 720px;
 		height: 70vh;
 		padding-top: 180px;
@@ -595,7 +595,7 @@ img.facebook-logo,
 
 	.all-testimonial {
 		padding: 30px;
-		background-color: #fffdd0;
+		background-color: white;
 		height: 80vh;
 		padding-top: 50px;
 	}
